@@ -1,7 +1,7 @@
-a = int(input("Enter the number"))
-if (a%2)==0:
-   print (a,"\neven")
-elif (a%2)==1: 
-   print (a,"\nodd")
+a = int(input())
+if (a<0):
+   print ("Invalid")
+elif (a%2)==0: 
+   print ("Even")
 else:
-   print (a,"\ninvalid")
+   print ("Odd")
