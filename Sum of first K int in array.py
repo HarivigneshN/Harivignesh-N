@@ -1,8 +1,8 @@
-list=[]
-n=int(input())
-a=int(input())
-for i in range (1,n+1):
+l=[]
+n_array=int(input())
+a_integer=int(input())
+for i in range (1,n_array+1):
     b=int(input())
-    list.append(b)
-b = sum(list[0:a])
-print (b)
+    l.append(b)
+c = sum(l[0:a_integer])
+print (c)
