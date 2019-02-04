@@ -1,4 +1,4 @@
 a=int(input())
-b=int(input())
-c=a**b
-print (c)
+b_power=int(input())
+c_value=a**b_power
+print (c_value)
