@@ -11,4 +11,4 @@ while(num!=1):
 ans=''
 for x in a:
 	ans=ans+" "+str(x)
-print (' '.join(sorted(set(ans),key=ans.index)))
+print (''.join(sorted(set(ans),key=ans.index)))
