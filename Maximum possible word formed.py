@@ -1,11 +1,10 @@
-a=input()
-b=1
-for i in range(len(a)-1):
-    c=a[i]+a[i+1]
-    d=int(a)
-    if d<=26 and a[i]!="0":
-        b+=1
-if b==3:
-    print(b)
+a=int(input())
+s=str(a)
+b=0
+for i in range(0,len(s)):
+    if int(s[i:i+2])<26 and len(str(int(s[i:i+2])))==2:
+        b=b+1
+if b==2:
+    print(b+b//2)
 else:
-    print(b+(b-1)//2)
+    print(b+b//2+1)
