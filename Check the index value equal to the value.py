@@ -6,5 +6,8 @@ for i in range (0,len(a)):
 	if (i==int(c)):
 		d.append(i)
 d=sorted(d)
-for i in d:
-	print(i,end=" ")
+if len(d)==0:
+	print('-1')
+else:
+	for i in d:
+		print(i,end=" ")
